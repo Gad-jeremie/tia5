@@ -18,11 +18,11 @@ $(function() {
 	
 	var open = function() {
 							$(items).removeClass('close').addClass('open');
-							$("#wrapperx").show();
+							$("#wrapperx,#wrapperxbody").show();
 						}
 	var close = function() { 
 							$(items).removeClass('open').addClass('close');
-							$("#wrapperx").hide();
+							$("#wrapperx,#wrapperxbody").hide();
 						}
 
 	$('#navToggle').click(function(){
