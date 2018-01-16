@@ -169,7 +169,7 @@ body {
 	border-radius: 3px;
 	margin: 4px 0;
 	}
-    .burger.open li {background:rgb(162, 81, 28);}
+    .burger.open li {background:#6a300a;}
  /*puch nav down on*/
     nav {
 	position: absolute;
@@ -410,13 +410,13 @@ body {
 	.content.open 
 	{   
 	-webkit-transform: translate3d(255px,0,0);
-	-webkit-animation: open .5s ease-in-out;
+	-webkit-animation: open .3s ease-in-out;
 
 	-moz-transform: translate3d(255px,0,0);
-	-moz-animation: open .5s ease-in-out;
+	-moz-animation: open .3s ease-in-out;
 
 	transform: translate3d(255px,0,0);
-	animation: open .5s ease-in-out;
+	animation: open .3s ease-in-out;
 	}
 	@-webkit-keyframes open {
 	0%      {-webkit-transform: translate3d(0,0,0);}
@@ -439,13 +439,13 @@ body {
 	.content.close 
 	{
 	-webkit-transform: translate3d(0,0,0);
-	-webkit-animation: close .3s ease-in-out;
+	-webkit-animation: close .2s ease-in-out;
 
 	-moz-transform: translate3d(0,0,0);
-	-moz-animation: close .3s ease-in-out;
+	-moz-animation: close .2s ease-in-out;
 
 	transform: translate3d(0,0,0);
-	animation: close .3s ease-in-out;
+	animation: close .2s ease-in-out;
 	}
 	@-webkit-keyframes close {
 	0%      {-webkit-transform: translate3d(255px,0,0);}
